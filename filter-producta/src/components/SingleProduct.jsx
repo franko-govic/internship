@@ -58,11 +58,11 @@ function SingleProduct({ productContent }) {
             <Rating initialRating={productContent.rating} />
             <div className="flex items-center">
               <p className="text-lg font-semibold text-black cursor-auto my-3">
-                ${price}
+                ${price - Math.round(discountPercentage)}
               </p>
               <del>
                 <p className="text-sm text-gray-600 cursor-auto ml-2">
-                  ${price - Math.round(discountPercentage)}
+                  ${price}
                 </p>
               </del>
             </div>
