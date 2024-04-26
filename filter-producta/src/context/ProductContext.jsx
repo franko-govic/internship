@@ -29,11 +29,43 @@ const ProductProvider = ({ children }) => {
   const allCategories = products.map((product) => product.category);
   const categories = ["All categories", ...new Set(allCategories)];
 
-  const allBrands = products.map((product) => product.brand);
+  const allBrands = products
+    .filter((item) => {
+      return (
+        filterState.selectedCategory === "All categories" ||
+        item.category === filterState.selectedCategory
+      );
+    })
+    .map((item) => item.brand);
+
   const brands = ["All brands", ...new Set(allBrands)];
+
+  const filteredProducts = products.filter((item) => {
+    const categoryMatch =
+      filterState.selectedCategory === "All categories" ||
+      item.category === filterState.selectedCategory;
+
+    const brandMatch =
+      filterState.selectedBrand === "All brands" ||
+      item.brand === filterState.selectedBrand;
+
+    const priceMatch = item.price <= filterState.maxPrice;
+
+    const ratingMatch = item.rating <= filterState.rating;
+
+    return categoryMatch && brandMatch && priceMatch && ratingMatch;
+  });
+
   return (
     <ProductContext.Provider
-      value={{ products, categories, brands, filterState, setFilterState }}
+      value={{
+        products,
+        categories,
+        brands,
+        filteredProducts,
+        filterState,
+        setFilterState,
+      }}
     >
       {children}
     </ProductContext.Provider>

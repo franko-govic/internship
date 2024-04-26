@@ -9,8 +9,7 @@ import { useState } from "react";
 import Rating from "react-rating";
 
 function SingleProduct({ productContent }) {
-  const { id, title, brand, price, thumbnail, discountPercentage } =
-    productContent;
+  const { title, brand, price, thumbnail, discountPercentage } = productContent;
 
   const [wishlistState, setWishlistState] = useState(false);
 

@@ -4,20 +4,14 @@ import { ProductContext } from "../context/ProductContext";
 import { SingleProduct } from "./SingleProduct";
 
 const MainComponent = () => {
-  const { products, categories, brands, filterState, setFilterState } =
-    useContext(ProductContext);
-
-  const filteredProducts = products.filter((item) => {
-    const categoryMatch =
-      filterState.selectedCategory === "All categories" ||
-      item.category === filterState.selectedCategory;
-    const brandMatch =
-      filterState.selectedBrand === "All brands" ||
-      item.brand === filterState.selectedBrand;
-    const priceMatch = item.price <= filterState.maxPrice;
-    const ratingMatch = item.rating <= filterState.rating;
-    return categoryMatch && brandMatch && priceMatch && ratingMatch;
-  });
+  const {
+    products,
+    categories,
+    brands,
+    filteredProducts,
+    filterState,
+    setFilterState,
+  } = useContext(ProductContext);
 
   console.log("Filltered products-->", filteredProducts);
   console.log("All products-->", products);
@@ -37,7 +31,7 @@ const MainComponent = () => {
           }
         >
           {categories.map((item, index) => (
-            <option key={index} value={item}>
+            <option keay={index} value={item}>
               {item}
             </option>
           ))}
