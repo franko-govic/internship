@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "value": 4360,
+    "unit": "ml",
+    "title": "The zero-emissions crossover is 4630 millimeters long",
+    "description": "This zero-emissions crossover boasts a remarkable length of 4630 millimeters, providing ample space for passengers and cargo alike. Its extended dimensions offer a blend of style, functionality, and aerodynamics, making it an ideal choice for modern urban environments.",
+    "imgUrl": "https://cdn.motor1.com/images/mgl/pbxblo/s4/2022-mitsubishi-airtrek.jpg",
+    "imgAlt": "img1"
+  },
+  {
+    "id": 2,
+    "value": 2500,
+    "unit": "rpm",
+    "title": "At just 2,500rpm, performance should be unlike most SUVs",
+    "description": "Acceleration from 3,000rpm all the way to the 7,500rpm red line is fairly breathtaking considering the car's proportions. Added to this is a super smooth gearchange in self-shift mode (though it tends to search for gears a little in auto mode).",
+    "imgUrl": "https://cdn.motor1.com/images/mgl/NGZG2y/s4/2022-mitsubishi-airtrek.jpg",
+    "imgAlt": "img2"
+  },
+  {
+    "id": 3,
+    "value": 2830,
+    "unit": "mm",
+    "title": "A compact crossover with a wheelbase stretching at 2830 mm",
+    "description": "Accordion 3 provides a versatile and compact solution with its 2830 millimeters of length. Despite its smaller footprint, this crossover delivers exceptional performance and agility, making it perfect for navigating crowded city streets or winding country roads. Its innovative design ensures a comfortable ride without compromising on efficiency or style.",
+    "imgUrl": "https://cdn.motor1.com/images/mgl/xqgq2q/s4/2022-mitsubishi-airtrek.jpg",
+    "imgAlt": "img3"
+  }
+]
