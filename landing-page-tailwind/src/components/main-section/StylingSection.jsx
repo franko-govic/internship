@@ -14,7 +14,7 @@ export const StylingSection = () => {
       <div className="flex gap-7 my-10 h-44">
         {stylingContent.map((content, index) => {
           return (
-            <div className="flex flex-col justify-between">
+            <div key={index} className="flex flex-col justify-between">
               <div className="flex flex-col">
                 <p className="border-b-2 border-black">{content.id}</p>
                 <p className="font-bold">{content.title}</p>

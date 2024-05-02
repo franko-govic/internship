@@ -1,0 +1,39 @@
+{
+  "title": "© 2024 Aitreck Auto",
+  "links": [
+    {
+      "name": "HEADQUARTERS",
+      "sublinks": [
+        "Mitsubishi Avenue 21, 121SH Bom Home, The Netherlands (Postal address PO Box 157, 6130 AD Sittard, The Netherlands)"
+      ]
+    },
+    {
+      "name": "SITE-MAP",
+      "sublinks": ["Home", "About", "Contact"]
+    },
+    {
+      "name": "CERTIFIED PRE-OWNED",
+      "sublinks": [
+        "Every Certified Pre-Owned Mitsubishi (CPO) vehicle is reconditioned from only the best cars available so you feel that some rare driving experience as the original owner."
+      ]
+    }
+  ],
+  "nav": ["Site Map", "Terms of Use", "Privacy Policy", "Cookie Policy"],
+  "locations": [
+    {
+      "flag": "[ US ]",
+      "country": "UNITED STATES",
+      "adress": "4031 Aspen Grove Drive, Suite 700, Franklin, TN 37067, USA"
+    },
+    {
+      "flag": "[ UK ]",
+      "country": "UNITED KINGDOM",
+      "adress": "The Gate International Drive, Solihull, 890 4WA, United Kingdom"
+    },
+    {
+      "flag": "[ JPN ]",
+      "country": "JAPAN",
+      "adress": "1-21, Shibaura 3-chome, Minato-ku, Tokyo 108-8410 Japan"
+    }
+  ]
+}
