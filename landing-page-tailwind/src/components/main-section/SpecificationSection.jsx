@@ -1,10 +1,10 @@
 import content from "../../assets/specContent.json";
-import Accordion from "../accordion/Accordion";
-import SpecificationBanner from "../SpecificationBanner";
+import Accordion from "../commons/Accordion";
+import SpecificationBanner from "../commons/SpecificationBanner";
 
 const SpecificationSection = () => {
   return (
-    <div className="m-6">
+    <div className="">
       <SpecificationBanner title={content[1].title} info={content[1].info} />
       <Accordion />
     </div>

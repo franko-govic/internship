@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import data from "./accordion.json";
 import {
-  RiAddCircleFill,
-  RiAddCircleLine,
-  RiAddLargeLine,
   RiAddLine,
   RiArrowRightDownLine,
   RiArrowRightLine,

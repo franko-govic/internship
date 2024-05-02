@@ -1,22 +1,14 @@
 import React from "react";
-import HeroSection from "./components/HeroSection/";
-import DrivingDynmaics from "./components/DrivingDynamics";
-import SpecificationSection from "./components/specification-section/SpecificationSection";
-import Navigation from "./components/Navigation";
-import InteriorSection from "./components/interiror-section/InteriorSection";
-import StylingSection from "./components/styling-section/StylingSection";
-import SocialMediaSection from "./components/social-media-section/SocialMediaSection";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import MainSection from "./components/main-section/MainSection";
 
 function App() {
   return (
     <>
-      <HeroSection />
-      <DrivingDynmaics />
-      <SpecificationSection />
-      <InteriorSection />
-      <StylingSection />
-      <Navigation />
-      <SocialMediaSection />
+      <Header />
+      <MainSection />
+      <Footer />
     </>
   );
 }

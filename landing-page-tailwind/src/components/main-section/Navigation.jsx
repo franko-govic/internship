@@ -1,9 +1,9 @@
 import { RiArrowRightUpLine } from "@remixicon/react";
-import navContent from "../assets/navigation.json";
+import navContent from "../../assets/navigation.json";
 
 const Navigation = () => {
   return (
-    <div className="flex gap-5 m-6">
+    <div className="flex gap-5 ">
       {navContent.map((data, index) => {
         return (
           <div

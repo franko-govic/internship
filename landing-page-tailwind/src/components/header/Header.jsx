@@ -1,8 +1,8 @@
-const Navbar = () => {
+const Header = () => {
   const navLinks = ["Home", "Models", "Beyond The car"];
 
   return (
-    <div className="flex p-5 text-white items-center">
+    <div className="flex p-5 text-white items-center absolute top-0 w-full">
       <div className="flex flex-1 gap-4">
         {navLinks.map((link, index) => (
           <p key={index}>{link}</p>
@@ -18,4 +18,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

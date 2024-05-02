@@ -3,7 +3,7 @@ import videoFile from "../../assets/Mitsubishi Airtrek electric SUV - official v
 
 const SocialMediaSection = () => {
   return (
-    <div className="relative flex flex-col gap-8 m-6">
+    <div className="relative flex flex-col gap-8 ">
       <video
         src={videoFile}
         controls

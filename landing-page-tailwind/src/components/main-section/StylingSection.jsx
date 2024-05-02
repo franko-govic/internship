@@ -1,11 +1,11 @@
 import React from "react";
 import stylingContent from "../../assets/stylingContent.json";
-import SpecificationBanner from "../SpecificationBanner";
+import SpecificationBanner from "../commons/SpecificationBanner";
 import content from "../../assets/specContent.json";
 
 export const StylingSection = () => {
   return (
-    <div className="m-6 py-5">
+    <div className=" py-5">
       <img
         src="https://cdn.motor1.com/images/mgl/NGZG2y/s4/2022-mitsubishi-airtrek.webp"
         alt=""

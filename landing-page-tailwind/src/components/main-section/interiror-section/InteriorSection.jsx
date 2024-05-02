@@ -1,12 +1,12 @@
 import React from "react";
-import interriorContet from "../../assets/interiorContent.json";
-import content from "../../assets/specContent.json";
-import DescriptionCard from "./DescriptionCard/";
-import SpecificationBanner from "../SpecificationBanner/";
+import interriorContet from "../../../assets/interiorContent.json";
+import content from "../../../assets/specContent.json";
+import DescriptionCard from "./DescriptionCard";
+import SpecificationBanner from "../../commons/SpecificationBanner";
 
 const InteriorSection = () => {
   return (
-    <div className="flex flex-col gap-5 m-6">
+    <div className="flex flex-col gap-5 ">
       <div className="h-96 flex gap-5">
         <img
           src={interriorContet[0].imgUrl}
