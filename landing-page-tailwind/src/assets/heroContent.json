@@ -1,0 +1,32 @@
+{
+  "mainContent": [
+    {
+      "mainTitle": "The Electronic Vehicle Pioneer for Adventure",
+      "mainInfo": "Meet the electronic vehicle hero-leading the charge towards a sustainable future. Harnessing cutting-edge technology and eco-friendly innovation, this hero transforms transportation, reducing emissions",
+      "btnTxt": "Learn more"
+    }
+  ],
+  "specs": [
+    {
+      "value": "400",
+      "unit": "ml",
+      "spec": "RANGE"
+    },
+    {
+      "value": "6.55",
+      "unit": "sec",
+      "spec": "ZERO TO 60 MPH"
+    },
+    {
+      "value": "178",
+      "unit": "ml",
+      "spec": "RECHARGED IN 15 MIN"
+    }
+  ],
+  "model": [
+    {
+      "title": "MODEL AIRTREK",
+      "info": "The Airtrek is powered by a 70 kWh lithium-ion battery, paired to a 135 kW (181 hp: 184 PS) electric motor delivering aclaimed range on China's CLTC test cycle of 520 km (323.1 mi)."
+    }
+  ]
+}

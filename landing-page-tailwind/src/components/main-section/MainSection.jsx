@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "./HeroSection";
+import HeroSection from "./hero-section/HeroSection/";
 import DrivingDynamics from "./DrivingDynamics";
 import SpecificationSection from "./SpecificationSection";
 import InteriorSection from "./interiror-section/InteriorSection";
