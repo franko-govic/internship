@@ -14,12 +14,12 @@ const SocialMediaSection = () => {
         Show Reel
       </p>
       <div className="w-full h-60 rounded-lg text-white bg-neutral-900 flex flex-col justify-between p-10">
-        <p className="text-6xl">HELO@AIRTRECK.CO</p>
+        <p className="text-3xl sm:text-4xl md:text-6xl">HELO@AIRTRECK.CO</p>
         <div className="flex justify-between items-center text-xs">
           <button className="bg-white text-neutral-900 py-2 px-5 rounded-lg">
             Order Now
           </button>
-          <div className="flex gap-5">
+          <div className="flex flex-col md:flex-row gap-2">
             <p className="cursor-pointer"> FACEBOOK</p>
             <p className="cursor-pointer"> YOUTUBE</p>
             <p className="cursor-pointer"> INSTAGRAM</p>

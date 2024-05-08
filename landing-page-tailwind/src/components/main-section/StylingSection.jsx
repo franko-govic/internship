@@ -11,7 +11,7 @@ export const StylingSection = () => {
         alt=""
         className="object-cover w-full rounded-lg"
       />
-      <div className="flex gap-7 my-10 h-44">
+      <div className="flex flex-col md:flex-row gap-7 my-10 md:h-44">
         {stylingContent.map((content, index) => {
           return (
             <div key={index} className="flex flex-col justify-between">

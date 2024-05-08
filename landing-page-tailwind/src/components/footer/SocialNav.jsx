@@ -7,8 +7,8 @@ import React from "react";
 
 const SocialNav = ({ navContent }) => {
   return (
-    <div className="flex justify-between p-6">
-      <div className="flex gap-1">
+    <div className="flex flex-wrap justify-between p-6">
+      <div className="flex gap-2">
         <div className="flex items-center justify-center border border-black p-0.5 rounded-full">
           <RiInstagramLine />
         </div>

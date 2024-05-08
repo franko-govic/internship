@@ -3,7 +3,7 @@ import React from "react";
 
 const DescriptionCard = ({ title, info }) => {
   return (
-    <div className="text-white bg-neutral-900	w-2/5 flex flex-col justify-between p-8 rounded-lg">
+    <div className="text-white bg-neutral-900	w-full md:w-3/5 flex flex-col justify-between p-8 rounded-lg">
       <p className="text-lg">{title}</p>
       <div className="flex flex-col gap-5 text-md">
         <p>{info}</p>

@@ -4,7 +4,7 @@ import SpecificationBanner from "../commons/SpecificationBanner";
 
 const SpecificationSection = () => {
   return (
-    <div className="">
+    <div className=" ">
       <SpecificationBanner title={content[1].title} info={content[1].info} />
       <Accordion />
     </div>

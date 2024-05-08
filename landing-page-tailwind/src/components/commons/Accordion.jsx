@@ -21,7 +21,7 @@ const Accordion = () => {
             <div>
               <div
                 onClick={() => handleAccordionItem(item.id)}
-                className="flex items-center justify-between"
+                className="flex flex-col items-start gap-2 md:flex-row md:items-center md:justify-between"
               >
                 <div className="flex justify-center items-center gap-3">
                   <span className="flex justify-center items-center border border-black w-fit p-2 rounded-full cursor-pointer">
@@ -39,10 +39,12 @@ const Accordion = () => {
                 </div>
               </div>
               {selected === item.id ? (
-                <div className="flex justify-end items-end">
-                  <p className="w-1/3 align-bottom">{item.description}</p>
+                <div className="flex flex-wrap-reverse mt-2 md:flex-row md:justify-end md:items-end">
+                  <p className="w-full md:w-1/3 md:align-bottom">
+                    {item.description}
+                  </p>
                   <img
-                    className="w-1/3 rounded-lg"
+                    className="w-full md:w-1/3 rounded-lg"
                     src={item.imgUrl}
                     alt={item.imgAlt}
                   />

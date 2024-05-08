@@ -11,7 +11,7 @@ const MainSection = () => {
   return (
     <div>
       <HeroSection />
-      <div className="p-6">
+      <div className="p-6 flex flex-col gap-10">
         <DrivingDynamics />
         <SpecificationSection />
         <InteriorSection />
