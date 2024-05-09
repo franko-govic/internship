@@ -19,7 +19,7 @@ const HeroSection = () => {
       <HeroSpecs content={heroContent.specs} />
       <Model
         content={heroContent.model}
-        styling="absolute right-6 bottom-6 w-2/6"
+        styling="hidden md:absolute right-6 bottom-6 w-2/6"
       />
     </div>
   );
